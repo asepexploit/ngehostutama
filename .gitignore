@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# kredensial pribadi (token lisensi, dll) -- jangan pernah commit
+.env
+
+# status/data hasil jalan checker -- bukan kode, data runtime pribadi (isinya bisa
+# ada daftar target/hasil scraping asli)
+status.json
+data/*
+!data/.gitkeep
+
+*.zip
