@@ -1,10 +1,4 @@
-"""Entry point: python app.py
-
-File ini sengaja tetap plain-text (tidak dikompilasi) -- logic sebenarnya ada di
-paket checker/ yang dikompilasi jadi checker.pyd. Import checker di baris pertama
-otomatis memicu enforce_license() (lihat checker/__init__.py), sebelum apa pun lain
-sempat jalan.
-"""
+"""Entry point: python app.py """
 
 import asyncio
 
